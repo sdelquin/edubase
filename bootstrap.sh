@@ -88,7 +88,7 @@ BRIDGEADAPTER=$(ip -br l | perl -nle 'print $1 if /(enp[^\W]+)/')
 
 curl -L $OVA_URL -o $OVA_TEMP_PATH
 
-VBoxManage import $OVA_LOCAL_PATH --vsys=0 --vmname=$VM_NAME
+VBoxManage import $OVA_TEMP_PATH --vsys=0 --vmname=$VM_NAME
 VBoxManage modifyvm $VM_NAME --macaddress1=$MAC
 VBoxManage modifyvm $VM_NAME --bridgeadapter1=$BRIDGEADAPTER
 
