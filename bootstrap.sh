@@ -80,14 +80,14 @@ esac
 VM_NAME=$CONTEXT
 OVA_NAME=daw.ova
 OVA_URL=$OVA_BASE_URL/$OVA_NAME
-#OVA_TEMP_PATH=/tmp/$OVA_NAME
-OVA_TEMP_PATH=/home/sdelquin/Documentos/$OVA_NAME
+OVA_TEMP_PATH=/tmp/$OVA_NAME
 
 HOSTNAME=$(hostname)
 MAC=${macs[$HOSTNAME]}
 BRIDGEADAPTER=$(ip -br l | perl -nle 'print $1 if /(enp[^\W]+)/')
 
-#curl -L $OVA_URL -o $OVA_TEMP_PATH
+curl -L $OVA_URL -o $OVA_TEMP_PATH
+
 VBoxManage import $OVA_LOCAL_PATH --vsys=0 --vmname=$VM_NAME
 VBoxManage modifyvm $VM_NAME --macaddress1=$MAC
 VBoxManage modifyvm $VM_NAME --bridgeadapter1=$BRIDGEADAPTER
