@@ -1,1 +1,1 @@
-curl http://amy/daw/2daw/dsw/hostname.sh dsw
+curl http://amy/daw/2daw/dsw/hostname.sh | bash -s dsw
