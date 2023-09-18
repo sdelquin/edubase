@@ -74,3 +74,17 @@ NEW_HOSTNAME=${hostnames[$MAC]}
 
 sudo hostnamectl set-hostname $NEW_HOSTNAME
 sudo sed -i "s/$OLD_HOSTNAME/$NEW_HOSTNAME/g" /etc/hosts
+clear
+
+echo ✔ Se ha modificado correctamente el nombre de la máquina: $NEW_HOSTNAME
+echo '  (lo verás al abrir una nueva terminal)'
+
+echo
+
+echo ↻ Ahora te sugiero que cambies tu contraseña de usuario
+echo '  (aunque no veas los caracteres al escribir, sí está funcionando)'
+passwd
+
+if [ $? -eq 0 ]; then
+    xfce4-terminal --tab
+fi
