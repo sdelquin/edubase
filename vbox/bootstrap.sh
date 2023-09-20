@@ -84,7 +84,7 @@ OVA_TEMP_PATH=/tmp/$OVA_NAME
 
 HOSTNAME=$(hostname)
 MAC=${macs[$HOSTNAME]}
-BRIDGEADAPTER=$(ip -br l | perl -nle 'print $1 if /(enp[^\W]+)/')
+BRIDGEADAPTER=$(ip -br l | perl -nle 'print $1 if /(en[op][^\W]+)/')
 
 curl -L $OVA_URL -o $OVA_TEMP_PATH
 
