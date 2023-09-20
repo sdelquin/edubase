@@ -126,6 +126,7 @@ case $CONTEXT in
         fi
         cd $HOME
         mkdir -p dsw
+        mkdir -p dsw/ut0
         mkdir -p dsw/ut1
         mkdir -p dsw/ut2
         mkdir -p dsw/ut3
