@@ -138,14 +138,6 @@ case $CONTEXT in
         ;;
 esac
 
-echo ✔ Se han creado correctamente las carpetas de trabajo en $HOME/$CONTEXT
-
+echo ✔ Se han creado correctamente las carpetas de trabajo en: $HOME/$CONTEXT
 echo
-
-echo ↻ Ahora te sugiero que cambies tu contraseña de usuario
-echo '  (aunque no veas los caracteres al escribir, sí está funcionando)'
-passwd
-
-if [ $? -eq 0 ]; then
-    xfce4-terminal --tab
-fi
+echo ↻ Ahora te sugiero que cambies tu contraseña de usuario...
