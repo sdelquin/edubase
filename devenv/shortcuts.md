@@ -23,25 +23,28 @@ Aplicaciones → Configuración → Gestor de ventanas → Teclado
 | <kbd>Super+TN Fin</kbd>    | Ajustar la ventana abajo a la izquierda   |
 | <kbd>Super+TN AvPag</kbd>  | Ajustar la ventana abajo a la derecha     |
 | <kbd>Super+R</kbd>         | Lanzador de aplicaciones                  |
-| <kbd>Super+E</kbd>         | Gestor de archivos                        |
+| <kbd>Super+E</kbd>         | Abre el navegador de archivos             |
+| <kbd>Ctrl+Alt+T</kbd>      | Abre una terminal                         |
 
 - $TN = teclado\ numérico$
 - $Super = TeclaWin$
 
 ## Atajos en Terminal
 
-| Combinación             | Acción                     |
-| ----------------------- | -------------------------- |
-| <kbd>Shift+Ctrl+T</kbd> | Abrir nueva pestaña        |
-| <kbd>Ctrl+RePag</kbd>   | Pestaña anterior           |
-| <kbd>Ctrl+AvPag</kbd>   | Pestaña siguiente          |
-| <kbd>Ctrl+</kbd>        | Aumentar tamaño de fuente  |
-| <kbd>Ctrl-</kbd>        | Disminuir tamaño de fuente |
-| <kbd>Ctrl+0</kbd>       | Restaurar tamaño de fuente |
-| <kbd>Shift+Ctrl+V</kbd> | Pegar                      |
-| <kbd>Ctrl+L</kbd>       | Borrar pantalla            |
-| <kbd>Ctrl+C</kbd>       | Abortar ejecución          |
-| <kbd>Esc+.</kbd>        | Últimos argumentos         |
+| Combinación             | Acción                       |
+| ----------------------- | ---------------------------- |
+| <kbd>Ctrl+Shift+T</kbd> | Abrir nueva pestaña          |
+| <kbd>Ctrl+Shift+W</kbd> | Cierra la pestaña actual     |
+| <kbd>Ctrl+RePag</kbd>   | Pestaña anterior             |
+| <kbd>Ctrl+AvPag</kbd>   | Pestaña siguiente            |
+| <kbd>Ctrl+</kbd>        | Aumentar tamaño de fuente    |
+| <kbd>Ctrl-</kbd>        | Disminuir tamaño de fuente   |
+| <kbd>Ctrl+0</kbd>       | Restaurar tamaño de fuente   |
+| <kbd>Shift+Ctrl+V</kbd> | Pegar                        |
+| <kbd>Ctrl+click</kbd>   | Abrir enlace en el navegador |
+| <kbd>Ctrl+L</kbd>       | Borrar pantalla              |
+| <kbd>Ctrl+C</kbd>       | Abortar ejecución            |
+| <kbd>Esc+.</kbd>        | Últimos argumentos           |
 
 ## Atajos en VSCode
 
