@@ -1,3 +1,5 @@
 clusters = pro dsw
-pro = pro.pc01.aula103 pro.pc02.aula103 pro.pc03.aula103 pro.pc04.aula103 pro.pc05.aula103 pro.pc08.aula103 pro.pc09.aula103 pro.pc10.aula103 pro.pc11.aula103 pro.pc12.aula103 pro.pc13.aula103 pro.pc14.aula103 pro.pc15.aula103 pro.pc16.aula103 pro.pc17.aula103 pro.pc18.aula103 pro.pc19.aula103 pro.pc20.aula103 pro.pc21.aula103 pro.pc22.aula103 pro.pc23.aula103 pro.pc24.aula103 pro.pc25.aula103 pro.pc26.aula103 pro.pc28.aula103 pro.pc30.aula103
+
+pro = pro.pc01.aula103 pro.pc02.aula103 pro.pc03.aula103 pro.pc04.aula103 pro.pc05.aula103 pro.pc06.aula103 pro.pc08.aula103 pro.pc09.aula103 pro.pc10.aula103 pro.pc11.aula103 pro.pc12.aula103 pro.pc13.aula103 pro.pc14.aula103 pro.pc15.aula103 pro.pc16.aula103 pro.pc17.aula103 pro.pc18.aula103 pro.pc19.aula103 pro.pc20.aula103 pro.pc21.aula103 pro.pc22.aula103 pro.pc23.aula103 pro.pc24.aula103 pro.pc25.aula103 pro.pc26.aula103 pro.pc28.aula103 pro.pc30.aula103
+
 dsw = dsw.pc03.aula109 dsw.pc04.aula109 dsw.pc05.aula109 dsw.pc06.aula109 dsw.pc07.aula109 dsw.pc08.aula109 dsw.pc09.aula109 dsw.pc10.aula109 dsw.pc11.aula109 dsw.pc12.aula109 dsw.pc13.aula109 dsw.pc14.aula109 dsw.pc15.aula109 dsw.pc17.aula109 dsw.pc18.aula109 dsw.pc19.aula109 dsw.pc20.aula109 dsw.pc21.aula109 dsw.pc22.aula109 dsw.pc23.aula109 dsw.pc24.aula109 dsw.pc25.aula109 dsw.pc26.aula109 dsw.pc27.aula109 dsw.pc28.aula109
