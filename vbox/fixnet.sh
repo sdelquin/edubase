@@ -64,32 +64,11 @@ macs[a109pc29]=0610A7FA8848
 macs[a109pc30]=0610A7FA8849
 
 CONTEXT=$1
-case $CONTEXT in
-    pro)
-        OVA_BASE_URL=http://amy/daw/1daw/$CONTEXT/
-        ;;
-    dsw)
-        OVA_BASE_URL=http://amy/daw/2daw/$CONTEXT/
-        ;;
-    *)
-        echo "Contexto no válido o vacío!"
-        exit
-        ;;
-esac
-
 VM_NAME=$CONTEXT
-OVA_NAME=daw.ova
-OVA_URL=$OVA_BASE_URL/$OVA_NAME
-OVA_TEMP_PATH=/tmp/$OVA_NAME
 
 HOSTNAME=$(hostname)
 MAC=${macs[$HOSTNAME]}
 BRIDGEADAPTER=$(ip -br l | perl -nle 'print $1 if /(en[op][^\W]+)/')
 
-curl -L $OVA_URL -o $OVA_TEMP_PATH
-
-VBoxManage import $OVA_TEMP_PATH --vsys=0 --vmname=$VM_NAME
 VBoxManage modifyvm $VM_NAME --macaddress1=$MAC
 VBoxManage modifyvm $VM_NAME --bridgeadapter1=$BRIDGEADAPTER
-
-rm $OVA_TEMP_PATH
