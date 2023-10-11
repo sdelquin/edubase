@@ -106,6 +106,7 @@ En Visual Studio Code están ya configurados los siguientes **componentes Python
 - [Ruff](https://github.com/astral-sh/ruff): analizador de código Python.
 - [Black](https://github.com/psf/black): autoformateador de código Python.
 - [Mypy](https://mypy-lang.org/): verificador de tipos estáticos.
+- [iSort](https://github.com/PyCQA/isort): organizador de _"imports"_
 - [Django](https://github.com/vscode-django/vscode-django): sintaxis y ayudas con Django.
 
 ## Vim
