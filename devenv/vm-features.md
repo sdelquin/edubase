@@ -101,13 +101,19 @@ $ e
 
 > 💡 `e` es un alias para `code .`
 
-En Visual Studio Code están ya configurados los siguientes **componentes Python**:
+### Extensiones
+
+En Visual Studio Code se han instalado y configurado los siguientes componentes para **desarrollo con Python**:
 
 - [Ruff](https://github.com/astral-sh/ruff): analizador de código Python.
 - [Black](https://github.com/psf/black): autoformateador de código Python.
 - [Mypy](https://mypy-lang.org/): verificador de tipos estáticos.
 - [iSort](https://github.com/PyCQA/isort): organizador de _"imports"_
 - [Django](https://github.com/vscode-django/vscode-django): sintaxis y ayudas con Django.
+
+Adicionalmente se han instalado y configurado los siguientes componentes para **desarrollo en general**:
+
+- [Prettier](https://prettier.io/).
 
 ## Vim
 
