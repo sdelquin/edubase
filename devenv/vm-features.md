@@ -1,5 +1,12 @@
 # Funcionalidades de la máquina virtual
 
+[Python](#python)  
+[Copiar y pegar](#copiar-y-pegar)  
+[Manejo de ficheros](#manejo-de-ficheros)  
+[Visual Studio Code](#visual-studio-code)  
+[Vim](#vim)  
+[Otras herramientas](#otras-herramientas)
+
 ## Python
 
 Abrir intérprete interactivo de Python (`ipython`):
@@ -101,19 +108,34 @@ $ e
 
 > 💡 `e` es un alias para `code .`
 
+### Configuración de herramientas Python
+
+Las herramientas Python que funcionan dentro de VSCode deben seguir una mínima configuración que se ha preparado en los siguientes archivos de configuración:
+
+- [~/.config/black](./files/black)
+- [~/.mypy.ini](./files/.mypy.ini)
+- [~/.ruff.toml](./files/.ruff.toml)
+
 ### Extensiones
 
-En Visual Studio Code se han instalado y configurado los siguientes componentes para **desarrollo con Python**:
+En Visual Studio Code se han instalado y configurado las siguientes extensiones para **desarrollo con Python**:
 
-- [Ruff](https://github.com/astral-sh/ruff): analizador de código Python.
-- [Black](https://github.com/psf/black): autoformateador de código Python.
-- [Mypy](https://mypy-lang.org/): verificador de tipos estáticos.
-- [iSort](https://github.com/PyCQA/isort): organizador de _"imports"_
+- [Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff): analizador de código Python.
+- [Black](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter): autoformateador de código Python.
+- [Mypy](https://github.com/microsoft/vscode-mypy): verificador de tipos estáticos.
+- [iSort](https://marketplace.visualstudio.com/items?itemName=ms-python.isort): organizador de _"imports"_
 - [Django](https://github.com/vscode-django/vscode-django): sintaxis y ayudas con Django.
 
-Adicionalmente se han instalado y configurado los siguientes componentes para **desarrollo en general**:
+Adicionalmente se han instalado y configurado las siguientes extensiones para **desarrollo en general**:
 
-- [Prettier](https://prettier.io/).
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): formateador de distintos tipos de archivo.
+- [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles): previsualizador de archivos _markdown_ al estilo GitHub.
+- [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons): conjunto de iconos muy lindos.
+- [Open in GitHub](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-open-in-github): apertura de archivos locales en el repositorio remoto GitHub.
+
+### Ajustes de VSCode
+
+Los ajustes de VSCode para una mejor experiencia de desarrollo están en [este archivo](./files/settings.json) y quedan almacenados en la ruta: `~/.config/Code/User/settings.json`.
 
 ## Vim
 
@@ -132,7 +154,7 @@ Igualmente se han preparado algunos **comandos útiles**:
 - `Ctrl-y`: copiar la selección al portapapeles.
 - `a`: copiar la selección justo debajo del cursor.
 
-## Herramientas
+## Otras herramientas
 
 Las siguientes herramientas ya vienen preinstaladas en la máquina:
 
