@@ -1,5 +1,7 @@
 #!/bin/bash
 
+CONTEXT=$(curl -L https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/get-context.sh | bash)
+
 declare -A macs
 macs[a103pc01]=0800274A5829
 macs[a103pc02]=0800274A5830
@@ -63,7 +65,6 @@ macs[a109pc28]=0610A7FA8847
 macs[a109pc29]=0610A7FA8848
 macs[a109pc30]=0610A7FA8849
 
-CONTEXT=$1
 VM_NAME=$CONTEXT
 
 HOSTNAME=$(hostname)

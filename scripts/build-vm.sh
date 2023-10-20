@@ -1,6 +1,7 @@
 #!/bin/bash
 
-CONTEXT=$1
+CONTEXT=$(curl -L https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/get-context.sh | bash)
+
 case $CONTEXT in
     pro)
         OVA_BASE_URL=http://amy/daw/1daw/$CONTEXT/
