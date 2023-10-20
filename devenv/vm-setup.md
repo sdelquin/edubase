@@ -11,7 +11,7 @@ Abrimos una terminal **desde la máquina real**:
 Construimos la máquina virtual con el siguiente comando:
 
 ```console
-curl -L https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/build-vm.sh | bash
+curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/build-vm.sh | bash
 ```
 
 > ⚠️ Este proceso puede durar varios minutos. ¡Paciencia!
@@ -19,7 +19,7 @@ curl -L https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/build-vm
 Ajustamos los parámetros de la interfaz de red con el siguiente comando:
 
 ```console
-curl -L https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-network.sh | bash
+curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-network.sh | bash
 ```
 
 ## Arranque y configuración
@@ -48,7 +48,7 @@ A continuación abrimos una terminal **desde la máquina virtual**:
 Ahora ejecutamos lo siguiente:
 
 ```console
-curl -L https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/set-hostname.sh | bash
+curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/set-hostname.sh | bash
 ```
 
 > ⚠️ Cuando nos lo solicite tendremos que poner la contraseña (ojo porque no se ve cuando la escribimos).
@@ -56,7 +56,7 @@ curl -L https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/set-host
 A continuación lanzamos el siguiente comando:
 
 ```console
-curl -L https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/create-folders.sh | bash
+curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/create-folders.sh | bash
 ```
 
 ## Clave de acceso

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CONTEXT=$(curl -L https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/get-context.sh | bash)
+CONTEXT=$(curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/get-context.sh | bash)
 
 declare -A macs
 macs[a103pc01]=0800274A5829
