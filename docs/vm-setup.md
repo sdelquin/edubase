@@ -53,7 +53,7 @@ curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/set-hos
 
 > ⚠️ Cuando nos lo solicite tendremos que poner la contraseña (ojo porque no se ve cuando la escribimos).
 
-A continuación lanzamos el siguiente comando:
+A continuación lanzamos este comando:
 
 ```console
 curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/create-folders.sh | bash
@@ -82,3 +82,19 @@ ip -br a | perl -nle 'print $1 if /(10.[^\/]+)/'
 > 💡 Si la IP que saca el comando no es la que corresponda, avisa al profe.
 
 3. No instales otra shell que no sea la que viene por defecto `bash` ya que puede afectar a las configuraciones predefinidas.
+
+## ⚠️ SÓLO PARA CAMBIO DE PUESTO
+
+En caso de que te hayas cambiado de puesto en clase, debes ejecutar una serie de comandos.
+
+### DESDE una terminal DE LA MÁQUINA REAL
+
+```console
+curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-network.sh | bash
+```
+
+### Desde una terminal de LA MÁQUINA VIRTUAL
+
+```console
+curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/set-hostname.sh | bash
+```
