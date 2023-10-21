@@ -78,11 +78,16 @@ Para ello ejecutamos el comando `passwd`:
 
 ![Pantalla completa](./images/vm-setup/full-screen.jpg)
 
-2. Abre una terminal y lanza el siguiente comando para comprobar que tu IP se corresponde con la que debe. Ejemplo: Si estás en el aula 103 y tu número de PC es el 12, el comando debería dar como salida: `10.103.12.20`
+2. Abre una terminal y lanza el siguiente comando para comprobar que tu IP se corresponde con la que debe:
 
 ```console
 ip -br a | perl -nle 'print $1 if /(10.[^\/]+)/'
 ```
+
+Ejemplos:
+
+- Si estás en el aula 103 y tu número de PC es el 7, el comando debería dar como salida: `10.103.7.20`
+- Si estás en el aula 109 y tu número de PC es el 4, el comando debería dar como salida: `10.109.4.20`
 
 > 💡 Si la IP que saca el comando no es la que corresponda, avisa al profe.
 
@@ -92,7 +97,7 @@ ip -br a | perl -nle 'print $1 if /(10.[^\/]+)/'
 
 En caso de que te hayas cambiado de puesto en clase, debes ejecutar los siguientes comandos.
 
-### DESDE una terminal DE LA MÁQUINA REAL
+### Desde una terminal DE LA MÁQUINA REAL
 
 Ajustamos los parámetros de la interfaz de red:
 
