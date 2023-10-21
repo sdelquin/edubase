@@ -1,6 +1,11 @@
 # Configuración de la máquina virtual
 
-Esta sección explica cómo montar **la máquina virtual** con la que vamos a trabajar en el módulo.
+Esta sección explica cómo montar **la máquina virtual** con la que vamos a trabajar en clase.
+
+[Descarga e instalación](#descarga-e-instalación)  
+[Arranque y configuración](#arranque-y-configuración)  
+[Clave de acceso](#clave-de-acceso)  
+[Observaciones](#observaciones)
 
 ## Descarga e instalación
 
@@ -45,7 +50,7 @@ A continuación abrimos una terminal **desde la máquina virtual**:
 
 ![Open terminal vm](./images/vm-setup/open-terminal-vm.png)
 
-Ahora ejecutamos lo siguiente:
+Lanzamos el siguiente comando para fijar el nombre de máquina (_hostname_):
 
 ```console
 curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/set-hostname.sh | bash
@@ -53,7 +58,7 @@ curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/set-hos
 
 > ⚠️ Cuando nos lo solicite tendremos que poner la contraseña (ojo porque no se ve cuando la escribimos).
 
-A continuación lanzamos este comando:
+A continuación creamos las carpetas de trabajo en el HOME del usuario ejecutando la siguiente instrucción:
 
 ```console
 curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/create-folders.sh | bash
@@ -67,7 +72,7 @@ Para ello ejecutamos el comando `passwd`:
 
 ![passwd](./images/vm-setup/passwd.png)
 
-## Pasos posteriores
+## Observaciones
 
 1. La primera vez que entramos a la máquina virtual puede que no se vea ocupando completamente la pantalla. Esto lo resolvemos muy fácil:
 
@@ -85,15 +90,19 @@ ip -br a | perl -nle 'print $1 if /(10.[^\/]+)/'
 
 ## ⚠️ SÓLO PARA CAMBIO DE PUESTO
 
-En caso de que te hayas cambiado de puesto en clase, debes ejecutar una serie de comandos.
+En caso de que te hayas cambiado de puesto en clase, debes ejecutar los siguientes comandos.
 
 ### DESDE una terminal DE LA MÁQUINA REAL
+
+Ajustamos los parámetros de la interfaz de red:
 
 ```console
 curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-network.sh | bash
 ```
 
 ### Desde una terminal de LA MÁQUINA VIRTUAL
+
+Ajustamos el nombre de máquina:
 
 ```console
 curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/set-hostname.sh | bash
