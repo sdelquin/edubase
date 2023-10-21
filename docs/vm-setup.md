@@ -97,17 +97,25 @@ Ejemplos:
 
 En caso de que te hayas cambiado de puesto en clase, debes ejecutar los siguientes comandos.
 
-### Desde una terminal DE LA MÁQUINA REAL
+### Desde una terminal de ➡️ LA MÁQUINA REAL ⬅️
 
-Ajustamos los parámetros de la interfaz de red:
+Cerramos la máquina virtual (en caso de que estuviera abierta) y **abrimos una terminal en la máquina real**:
+
+![Abrir terminal en máquina real](./images/vm-setup/open-terminal.png)
+
+Ajustamos los parámetros de la interfaz de red ejecutando el siguiente comando:
 
 ```console
 curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-network.sh | bash
 ```
 
-### Desde una terminal de LA MÁQUINA VIRTUAL
+### Desde una terminal de ➡️ LA MÁQUINA VIRTUAL ⬅️
 
-Ajustamos el nombre de máquina:
+Arrancamos la máquina virtual y **abrimos una terminal en la máquina virtual**:
+
+![Abrir terminal en máquina virtual](./images/vm-setup/open-terminal-vm.png)
+
+Ajustamos el nombre de máquina ejecutando el siguiente comando:
 
 ```console
 curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/set-hostname.sh | bash
