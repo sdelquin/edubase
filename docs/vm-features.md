@@ -112,7 +112,6 @@ $ e
 
 Las herramientas Python que funcionan dentro de VSCode deben seguir una mínima configuración que se ha preparado en los siguientes archivos de configuración:
 
-- [~/.config/black](./files/black)
 - [~/.mypy.ini](./files/.mypy.ini)
 - [~/.ruff.toml](./files/.ruff.toml)
 
@@ -121,13 +120,12 @@ Las herramientas Python que funcionan dentro de VSCode deben seguir una mínima 
 En Visual Studio Code se han instalado y configurado las siguientes extensiones para **desarrollo con Python**:
 
 - [Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff): analizador de código Python.
-- [Black](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter): autoformateador de código Python.
 - [Mypy](https://github.com/microsoft/vscode-mypy): verificador de tipos estáticos.
-- [iSort](https://marketplace.visualstudio.com/items?itemName=ms-python.isort): organizador de _"imports"_
 - [Django](https://github.com/vscode-django/vscode-django): sintaxis y ayudas con Django.
 
 Adicionalmente se han instalado y configurado las siguientes extensiones para **desarrollo en general**:
 
+- [Just](https://marketplace.visualstudio.com/items?itemName=kokakiwi.vscode-just): gestor de ficheros _justfile_.
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): formateador de distintos tipos de archivo.
 - [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles): previsualizador de archivos _markdown_ al estilo GitHub.
 - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons): conjunto de iconos muy lindos.
