@@ -161,4 +161,5 @@ Las siguientes herramientas ya vienen preinstaladas en la máquina:
 - [sqlite3](https://www.sqlite.org/index.html): Herramienta cliente en línea de comandos para manejar bases de datos de tipo sqlite.
 - [postgresql](https://www.postgresql.org/): Sistema gestor de bases de datos.
 - [redis](https://redis.io/): almacenamiento clave-valor en memoria.
-- [liferea](https://github.com/lwindolf/liferea): cliente RSS.
+- [liferea](https://github.com/lwindolf/liferea): Cliente RSS.
+- [rabbitmq](https://www.rabbitmq.com/): Agente de colas de mensajes.
