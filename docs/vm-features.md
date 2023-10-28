@@ -120,6 +120,7 @@ Las herramientas Python que funcionan dentro de VSCode deben seguir una mínima 
 En Visual Studio Code se han instalado y configurado las siguientes extensiones para **desarrollo con Python**:
 
 - [Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff): analizador de código Python.
+- [isort](https://marketplace.visualstudio.com/items?itemName=ms-python.isort): organizador de _imports_ en código Python.
 - [Mypy](https://github.com/microsoft/vscode-mypy): verificador de tipos estáticos.
 - [Django](https://github.com/vscode-django/vscode-django): sintaxis y ayudas con Django.
 
@@ -163,3 +164,4 @@ Las siguientes herramientas ya vienen preinstaladas en la máquina:
 - [redis](https://redis.io/): almacenamiento clave-valor en memoria.
 - [liferea](https://github.com/lwindolf/liferea): Cliente RSS.
 - [rabbitmq](https://www.rabbitmq.com/): Agente de colas de mensajes.
+- [stripe-cli](https://github.com/stripe/stripe-cli): Herramientas para "stripe" en línea de comandos.
