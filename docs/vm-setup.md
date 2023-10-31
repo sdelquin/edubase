@@ -120,3 +120,15 @@ Ajustamos el nombre de máquina ejecutando el siguiente comando:
 ```console
 curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/set-hostname.sh | bash
 ```
+
+## ⚠️ Cuando usamos la máquina en casa
+
+Cuando nos llevamos la máquina virtual a casa es muy probable que la configuración de red nos de problemas ya que no va a encontrar la misma interfaz de red que en el centro.
+
+**Es por ello que se recomienda, siempre que empecemos a trabajar en el centro, lanzar el siguiente comando DESDE UNA TERMINAL DE LA MÁQUINA REAL**:
+
+```console
+curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-network.sh | bash
+```
+
+Ahora ya podremos iniciar la máquina virtual con normalidad.
