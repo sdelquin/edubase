@@ -112,8 +112,8 @@ $ e
 
 Las herramientas Python que funcionan dentro de VSCode deben seguir una mínima configuración que se ha preparado en los siguientes archivos de configuración:
 
-- [~/.mypy.ini](./files/.mypy.ini)
-- [~/.ruff.toml](./files/.ruff.toml)
+- [`~/.mypy.ini`](./files/.mypy.ini)
+- [`~/.ruff.toml`](./files/.ruff.toml)
 
 ### Extensiones
 
