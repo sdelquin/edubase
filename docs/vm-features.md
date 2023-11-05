@@ -157,7 +157,7 @@ Igualmente se han preparado algunos **comandos útiles**:
 
 Las siguientes herramientas ya vienen preinstaladas en la máquina:
 
-- [just](https://github.com/casey/just): Herramienta para poder ejecutar comandos predefinidos en proyectos (_makefiles_).
+- [just](https://github.com/casey/just): Herramienta para poder ejecutar comandos predefinidos en proyectos (_makefiles_) → Creado alias `j` para `just`.
 - [bat](https://github.com/sharkdp/bat): Es como "cat" pero que mola. ¡Pruébalo!
 - [sqlite3](https://www.sqlite.org/index.html): Herramienta cliente en línea de comandos para manejar bases de datos de tipo sqlite.
 - [postgresql](https://www.postgresql.org/): Sistema gestor de bases de datos.
