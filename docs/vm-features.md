@@ -165,3 +165,4 @@ Las siguientes herramientas ya vienen preinstaladas en la máquina:
 - [liferea](https://github.com/lwindolf/liferea): Cliente RSS.
 - [rabbitmq](https://www.rabbitmq.com/): Agente de colas de mensajes.
 - [stripe-cli](https://github.com/stripe/stripe-cli): Herramientas para "stripe" en línea de comandos.
+- [npm](https://www.npmjs.com/): Sistema de gestión de paquetes para Node.js
