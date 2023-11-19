@@ -129,6 +129,7 @@ Adicionalmente se han instalado y configurado las siguientes extensiones para **
 - [Just](https://marketplace.visualstudio.com/items?itemName=kokakiwi.vscode-just): gestor de ficheros _justfile_.
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): formateador de distintos tipos de archivo.
 - [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles): previsualizador de archivos _markdown_ al estilo GitHub.
+- [gettext](https://marketplace.visualstudio.com/items?itemName=mrorz.language-gettext): coloreado de sintaxis para ficheros PO de internacionalización.
 - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons): conjunto de iconos muy lindos.
 - [Open in GitHub](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-open-in-github): apertura de archivos locales en el repositorio remoto GitHub.
 
@@ -166,3 +167,4 @@ Las siguientes herramientas ya vienen preinstaladas en la máquina:
 - [rabbitmq](https://www.rabbitmq.com/): Agente de colas de mensajes.
 - [stripe-cli](https://github.com/stripe/stripe-cli): Herramientas para "stripe" en línea de comandos.
 - [npm](https://www.npmjs.com/): Sistema de gestión de paquetes para Node.js
+- [poedit](https://poedit.net/): Utilidad de ayuda a la traducción de cadenas de texto en internacionalización de aplicaciones.
