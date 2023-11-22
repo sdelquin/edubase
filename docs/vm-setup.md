@@ -14,7 +14,9 @@ Abrimos una terminal **desde la máquina real**:
 
 ![Open terminal](./images/vm-setup/open-terminal.png)
 
-Construimos la máquina virtual con el siguiente comando:
+Construimos la máquina virtual pegando y ejecutando <kbd>ENTER</kbd> el siguiente comando en la terminal:
+
+> 💡 Para copiar puedes usar el símbolo ⧉ que está a la derecha del comando. Para pegar en la terminal tendrás que usar la combinación de teclas <kbd>CTRL+SHIFT+V</kbd> (o botón derecho → pegar)
 
 ```console
 curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/build-vm.sh | bash
@@ -22,7 +24,7 @@ curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/build-v
 
 > ⚠️ Este proceso puede durar varios minutos. ¡Paciencia!
 
-Ajustamos los parámetros de la interfaz de red con el siguiente comando:
+Ajustamos los parámetros de la interfaz de red pegando y ejecutando <kbd>ENTER</kbd> el siguiente comando en la terminal:
 
 ```console
 curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-network.sh | bash
