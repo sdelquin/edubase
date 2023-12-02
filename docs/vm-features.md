@@ -121,8 +121,8 @@ En Visual Studio Code se han instalado y configurado las siguientes extensiones 
 
 - [Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff): analizador de código Python.
 - [isort](https://marketplace.visualstudio.com/items?itemName=ms-python.isort): organizador de _imports_ en código Python.
-- [Mypy](https://github.com/microsoft/vscode-mypy): verificador de tipos estáticos.
-- [Django](https://github.com/vscode-django/vscode-django): sintaxis y ayudas con Django.
+- [Mypy](https://marketplace.visualstudio.com/items?itemName=ms-python.mypy-type-checker): verificador de tipos estáticos.
+- [Django](https://marketplace.visualstudio.com/items?itemName=batisteo.vscode-django): sintaxis y ayudas con Django.
 
 Adicionalmente se han instalado y configurado las siguientes extensiones para **desarrollo en general**:
 
