@@ -1,4 +1,4 @@
-# Instalación de Python
+# Instalación de Python en Linux
 
 A continuación se muestra un **tutorial para instalar la última versión estable de Python sobre Linux.**
 
