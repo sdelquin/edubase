@@ -169,3 +169,4 @@ Las siguientes herramientas ya vienen preinstaladas en la máquina:
 - [npm](https://www.npmjs.com/): Sistema de gestión de paquetes para Node.js
 - [poedit](https://poedit.net/): Utilidad de ayuda a la traducción de cadenas de texto en internacionalización de aplicaciones.
 - [memcached](https://memcached.org/): Servicio para cachear contenido.
+- [syncthing](https://syncthing.net/): Servicio para sincronizar ficheros.
