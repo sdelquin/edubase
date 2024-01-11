@@ -74,5 +74,5 @@ VM_NAME=$CONTEXT
 read -p "Nombre de tu máquina virtual [$CONTEXT]: " VM_NAME
 VM_NAME=${VM_NAME:-$CONTEXT}
 
-VBoxManage modifyvm $VM_NAME --macaddress1=$MAC
-VBoxManage modifyvm $VM_NAME --bridgeadapter1=$BRIDGEADAPTER
+VBoxManage modifyvm "$VM_NAME" --macaddress1=$MAC
+VBoxManage modifyvm "$VM_NAME" --bridgeadapter1=$BRIDGEADAPTER
