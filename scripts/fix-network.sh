@@ -65,11 +65,14 @@ macs[a109pc28]=0610A7FA8847
 macs[a109pc29]=0610A7FA8848
 macs[a109pc30]=0610A7FA8849
 
-VM_NAME=$CONTEXT
 
 HOSTNAME=$(hostname)
 MAC=${macs[$HOSTNAME]}
 BRIDGEADAPTER=$(ip -br l | perl -nle 'print $1 if /(en[op][^\W]+)/')
+
+VM_NAME=$CONTEXT
+read -p "Nombre de tu máquina virtual [$CONTEXT]: " VM_NAME
+VM_NAME=${VM_NAME:-$CONTEXT}
 
 VBoxManage modifyvm $VM_NAME --macaddress1=$MAC
 VBoxManage modifyvm $VM_NAME --bridgeadapter1=$BRIDGEADAPTER
