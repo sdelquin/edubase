@@ -27,8 +27,10 @@ curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/build-v
 Ajustamos los parámetros de la interfaz de red pegando y ejecutando <kbd>ENTER</kbd> el siguiente comando en la terminal:
 
 ```console
-curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-network.sh | bash
+bash <(curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-network.sh)
 ```
+
+> 💡 Nos pedirá el nombre de la máquina virtual. Si no la has modificado basta con pulsar <kdb>ENTER</kdb>.
 
 ## Arranque y configuración
 
@@ -108,16 +110,20 @@ Ejemplos:
    **Es por ello que se recomienda ➡️ antes de arrancar la máquina virtual en el instituto ⬅️ lanzar el siguiente comando DESDE UNA TERMINAL DE LA MÁQUINA REAL**:
 
    ```console
-   curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-network.sh | bash
+   bash <(curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-network.sh)
    ```
+
+   > 💡 Nos pedirá el nombre de la máquina virtual. Si no la has modificado basta con pulsar <kdb>ENTER</kdb>.
 
 5. **CUANDO CAMBIAMOS DE PUESTO EN EL AULA** debemos realizar dos acciones.
 
    **a) Desde una terminal de la MÁQUINA REAL ejecutamos este comando**:
 
    ```console
-   curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-network.sh | bash
+   bash <(curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-network.sh)
    ```
+
+   > 💡 Nos pedirá el nombre de la máquina virtual. Si no la has modificado basta con pulsar <kdb>ENTER</kdb>.
 
    **b) Desde una terminal de la MÁQUINA VIRTUAL ejecutamos este comando**:
 
