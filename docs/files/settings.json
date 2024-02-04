@@ -7,7 +7,6 @@
   // PYTHON
   "python.analysis.ignore": ["*"],
   "mypy-type-checker.preferDaemon": false,
-  "ruff.organizeImports": false,
 
   "[python]": {
     "editor.formatOnSave": true,
