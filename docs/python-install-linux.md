@@ -21,7 +21,7 @@ libsqlite3-dev wget libbz2-dev pkg-config curl
 Obtenemos la última versión estable de Python:
 
 ```console
-PYTHON_LATEST=`curl -s https://www.python.org/downloads/source/ | grep tgz | head -1 | perl -nle 'print $1 if /(\d+\.\d+\.\d+)/'`
+PYTHON_LATEST=`curl -s https://www.python.org/downloads/ | gunzip -c | grep latest | perl -nle 'print $1 if /(\d+\.\d+\.\d+)/'`
 ```
 
 Construimos la URL de descarga para Linux:
