@@ -4,10 +4,10 @@ CONTEXT=$(curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scrip
 
 case $CONTEXT in
     pro)
-        OVA_BASE_URL=http://amy/daw/1daw/$CONTEXT/
+        OVA_BASE_URL=http://repo.amy/daw/1daw/pro/
         ;;
     dsw)
-        OVA_BASE_URL=http://amy/daw/2daw/$CONTEXT/
+        OVA_BASE_URL=http://repo.amy/daw/2daw/dsw/
         ;;
     *)
         echo "Contexto no válido o vacío!"

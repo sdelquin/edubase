@@ -13,7 +13,7 @@ En la búsqueda de un sistema operativo que consuma pocos recursos y que nos pro
 
 Descargar la imagen del sistema operativo [Debian 12 Netinst AMD64](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.1.0-amd64-netinst.iso). Lo más habitual es que quede en la carpeta de "Descargas".
 
-> ⚠️ Si estás dentro de la red de informática del centro puedes descargar la imagen [desde este enlace](http://amy/daw/1daw/pro/debian-12.1.0-amd64-netinst.iso).
+> ⚠️ Si estás dentro de la red de informática del centro puedes descargar la imagen [desde este enlace](http://repo.amy/daw/1daw/pro/debian-12.1.0-amd64-netinst.iso).
 
 ## VirtualBox
 
