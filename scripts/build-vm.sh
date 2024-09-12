@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CONTEXT=$(curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/get-context.sh | bash)
+CONTEXT=$(curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/get-context.sh | bash)
 
 case $CONTEXT in
     pro)
@@ -20,6 +20,9 @@ OVA_NAME=daw.ova
 OVA_URL=$OVA_BASE_URL/$OVA_NAME
 OVA_TEMP_PATH=/tmp/$OVA_NAME
 
-curl -L $OVA_URL -o $OVA_TEMP_PATH
+# check if OVA is already saved
+if [ ! -f "$OVA_TEMP_PATH" ]; then
+    curl -L $OVA_URL -o $OVA_TEMP_PATH
+fi
 VBoxManage import $OVA_TEMP_PATH --vsys=0 --vmname=$VM_NAME
 rm $OVA_TEMP_PATH

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CONTEXT=$(curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/get-context.sh | bash)
+CONTEXT=$(curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/get-context.sh | bash)
 
 declare -A macs
 macs[a103pc01]=0800274A5829
@@ -76,3 +76,5 @@ VM_NAME=${VM_NAME:-$CONTEXT}
 
 VBoxManage modifyvm "$VM_NAME" --macaddress1=$MAC
 VBoxManage modifyvm "$VM_NAME" --bridgeadapter1=$BRIDGEADAPTER
+
+echo ✔ Se ha modificado correctamente la configuración de red para la máquina virtual $VM_NAME

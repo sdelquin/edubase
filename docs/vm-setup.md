@@ -14,12 +14,12 @@ Abrimos una terminal **desde la máquina real**:
 
 ![Open terminal](./images/vm-setup/open-terminal.png)
 
-Construimos la máquina virtual pegando y ejecutando <kbd>ENTER</kbd> el siguiente comando en la terminal:
+Construimos la máquina virtual pegando y ejecutando (con <kbd>ENTER</kbd>) el siguiente comando en la terminal:
 
 > 💡 Para copiar puedes usar el símbolo ⧉ que está a la derecha del comando. Para pegar en la terminal tendrás que usar la combinación de teclas <kbd>CTRL+SHIFT+V</kbd> (o botón derecho → pegar)
 
 ```console
-curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/build-vm.sh | bash
+curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/build-vm.sh | bash
 ```
 
 > ⚠️ Este proceso puede durar varios minutos. ¡Paciencia!
@@ -27,7 +27,7 @@ curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/build-v
 Ajustamos los parámetros de la interfaz de red pegando y ejecutando <kbd>ENTER</kbd> el siguiente comando en la terminal:
 
 ```console
-bash <(curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-network.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-network.sh)
 ```
 
 > 💡 Nos pedirá el nombre de la máquina virtual. Si no la has modificado basta con pulsar <kdb>ENTER</kdb>.
@@ -58,7 +58,7 @@ A continuación abrimos una terminal **desde la máquina virtual**:
 Lanzamos el siguiente comando para fijar el nombre de máquina (_hostname_):
 
 ```console
-curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/set-hostname.sh | bash
+curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/set-hostname.sh | bash
 ```
 
 > ⚠️ Cuando nos lo solicite tendremos que poner la contraseña (ojo porque no se ve cuando la escribimos).
@@ -66,7 +66,7 @@ curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/set-hos
 A continuación creamos las carpetas de trabajo en el HOME del usuario ejecutando la siguiente instrucción:
 
 ```console
-curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/create-folders.sh | bash
+curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/create-folders.sh | bash
 ```
 
 ## Clave de acceso
@@ -110,7 +110,7 @@ Ejemplos:
    **Es por ello que se recomienda ➡️ antes de arrancar la máquina virtual en el instituto ⬅️ lanzar el siguiente comando DESDE UNA TERMINAL DE LA MÁQUINA REAL**:
 
    ```console
-   bash <(curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-network.sh)
+   bash <(curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-network.sh)
    ```
 
    > 💡 Nos pedirá el nombre de la máquina virtual. Si no la has modificado basta con pulsar <kdb>ENTER</kdb>.
@@ -120,7 +120,7 @@ Ejemplos:
    **a) Desde una terminal de la MÁQUINA REAL ejecutamos este comando**:
 
    ```console
-   bash <(curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-network.sh)
+   bash <(curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-network.sh)
    ```
 
    > 💡 Nos pedirá el nombre de la máquina virtual. Si no la has modificado basta con pulsar <kdb>ENTER</kdb>.
@@ -128,5 +128,5 @@ Ejemplos:
    **b) Desde una terminal de la MÁQUINA VIRTUAL ejecutamos este comando**:
 
    ```console
-   curl -sL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/set-hostname.sh | bash
+   curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/set-hostname.sh | bash
    ```
