@@ -8,7 +8,6 @@ Para instalar las extensiones necesarias, ejecutamos el siguiente comando (pulsa
 
 ```console
 code --install-extension charliermarsh.ruff && ^
-code --install-extension ms-python.isort && ^
 code --install-extension ms-python.mypy-type-checker
 ```
 
@@ -17,19 +16,19 @@ code --install-extension ms-python.mypy-type-checker
 Ahora vamos a copiar la configuración base. Para ello ejecutamos el siguiente comando:
 
 ```console
-curl -L https://raw.githubusercontent.com/sdelquin/edubase/main/docs/files/settings.json -o %APPDATA%\Code\User\settings.json
+curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/docs/files/settings.json -o %APPDATA%\Code\User\settings.json
 ```
 
 A continuación descargamos la configuración del formateador ejecutando el siguiente comando:
 
 ```console
-curl -L https://raw.githubusercontent.com/sdelquin/edubase/main/docs/files/.ruff.toml -o %USERPROFILE%\.ruff.toml
+curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/docs/files/.ruff.toml -o %USERPROFILE%\.ruff.toml
 ```
 
 Y por último descargamos la configuración del comprobador de tipos ejecutando el siguiente comando:
 
 ```console
-curl -L https://raw.githubusercontent.com/sdelquin/edubase/main/docs/files/.mypy.ini -o %USERPROFILE%\.mypy.ini
+curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/docs/files/.mypy.ini -o %USERPROFILE%\.mypy.ini
 ```
 
 > ⚠️ Si no te funciona el comando `curl` puedes seguir [esta guía de instalación](https://help.clouding.io/hc/en-us/articles/7813911710748-Install-CURL-on-Windows).

@@ -24,7 +24,7 @@ curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/build
 
 > ⚠️ Este proceso puede durar varios minutos. ¡Paciencia!
 
-Ajustamos los parámetros de la interfaz de red pegando y ejecutando <kbd>ENTER</kbd> el siguiente comando en la terminal:
+Ajustamos los parámetros de la interfaz de red pegando y ejecutando (con <kbd>ENTER</kbd>) el siguiente comando en la terminal:
 
 ```console
 bash <(curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-network.sh)

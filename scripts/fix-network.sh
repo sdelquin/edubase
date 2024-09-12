@@ -77,4 +77,4 @@ VM_NAME=${VM_NAME:-$CONTEXT}
 VBoxManage modifyvm "$VM_NAME" --macaddress1=$MAC
 VBoxManage modifyvm "$VM_NAME" --bridgeadapter1=$BRIDGEADAPTER
 
-echo ✔ Se ha modificado correctamente la configuración de red para la máquina virtual $VM_NAME
+echo ✔ Se ha modificado correctamente la configuración de red para la máquina virtual: $VM_NAME
