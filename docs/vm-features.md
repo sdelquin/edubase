@@ -17,7 +17,7 @@ $ p
 
 ![ipython](./images/vm-features/ipython.png)
 
-### Pyenv
+### pyenv
 
 La gestión de las distintas versiones de Python se realiza a través de la herramienta [pyenv](https://github.com/pyenv/pyenv). Esto facilita la instalación de versiones antiguas o modernas del lenguaje aislando cada una del sistema operativo.
 
@@ -49,6 +49,14 @@ Tenemos ya instalado el paquete [pytest](https://docs.pytest.org/en/7.1.x/gettin
 
 ```console
 $ pytest
+```
+
+### pypas
+
+También está disponible la herramienta de ejercicios en Python [pypas](https://pypas.es). Recuerda actualizarla a la última versión ejecutando el siguiente comando:
+
+```console
+$ pypas upgrade
 ```
 
 ## Copiar y pegar
