@@ -1,11 +1,18 @@
 # Funcionalidades de la máquina virtual
 
+[Gestión de energía](#gestión-de-energía)  
 [Python](#python)  
 [Copiar y pegar](#copiar-y-pegar)  
 [Manejo de ficheros](#manejo-de-ficheros)  
 [Visual Studio Code](#visual-studio-code)  
 [Vim](#vim)  
 [Otras herramientas](#otras-herramientas)
+
+## Gestión de energía
+
+Se ha deshabilitado la suspensión/hibernación de la máquina virtual mediante las indicaciones de [este tutorial](https://techmiscellany.hashnode.dev/xfce-remove-suspend-and-hibernate-menu-options).
+
+> 💡 Se ha hecho esto porque la máquina se quedaba "congelada" después de la suspensión.
 
 ## Python
 
