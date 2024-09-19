@@ -5,7 +5,8 @@ CONTEXT=$(curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/scr
 case $CONTEXT in
     pro)
         if [ -e ~/pro ]
-            then mv ~/pro ~/pro.bk
+        then
+            mv ~/pro ~/pro.bk
         fi
         cd $HOME
         mkdir -p pro/ut2/datos
@@ -27,9 +28,11 @@ case $CONTEXT in
         ;;
     dsw)
         if [ -e ~/dsw ]
-            then mv ~/dsw ~/dsw.bk
+        then
+            mv ~/dsw ~/dsw.bk
         fi
         cd $HOME
+        mkdir -p dsw/ut1
         mkdir -p dsw/ut2
         mkdir -p dsw/ut3
         mkdir -p dsw/ut4
