@@ -34,7 +34,7 @@ fi
 # INSTALACIÓN DE LA OVA
 if VBoxManage list vms | perl -nle 'print $1 if /"([^"]+)"/' | grep -E '^'"$VM_NAME"'$' > /dev/null
 then
-    read -p "Ya existe una máquina virtual con el nombre "$VM_NAME". Para continuar habrá que borrar esta máquina virtual. ¿Continuar? [S/n]: "
+    read -p "Ya existe una máquina virtual con el nombre \"$VM_NAME\". Para continuar habrá que borrar esta máquina virtual. ¿Continuar? [S/n]: "
     REPLY=${REPLY:-S}
     if [[ $REPLY =~ ^[Ss]$ ]]
     then
