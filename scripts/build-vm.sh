@@ -23,7 +23,8 @@ OVA_LOCAL_PATH=$HOME/Descargas/$OVA_NAME
 # DESCARGA DE LA OVA
 if [ -f "$OVA_LOCAL_PATH" ]
 then
-    read -p "Ya se ha descargado una OVA en la ruta $OVA_LOCAL_PATH. ¿Usar esta OVA? [S/n]: "
+    OVA_MOD_DATE=$(date -r $OVA_LOCAL_PATH "+%m-%d-%Y")
+    read -p "Ya se ha descargado una OVA en la ruta $OVA_LOCAL_PATH ($OVA_MOD_DATE). ¿Usar esta OVA? [S/n]: "
     REPLY=${REPLY:-S}
     [[ $REPLY =~ ^[Ss]$ ]] || curl -L $OVA_URL -o $OVA_LOCAL_PATH
 else

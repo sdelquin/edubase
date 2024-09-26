@@ -19,7 +19,7 @@ Construimos la máquina virtual pegando y ejecutando (con <kbd>ENTER</kbd>) el s
 > 💡 Para copiar puedes usar el símbolo ⧉ que está a la derecha del comando. Para pegar en la terminal tendrás que usar la combinación de teclas <kbd>CTRL+SHIFT+V</kbd> (o botón derecho → pegar)
 
 ```console
-curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/build-vm.sh | bash
+bash <(curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/build-vm.sh)
 ```
 
 > ⚠️ Este proceso puede durar varios minutos. ¡Paciencia!
