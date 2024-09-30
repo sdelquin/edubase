@@ -43,4 +43,4 @@ then
         exit 0
     fi
 fi
-VBoxManage import $OVA_LOCAL_PATH --vsys=0 --vmname=$VM_NAME && rm -f $OVA_LOCAL_PATH
+VBoxManage import $OVA_LOCAL_PATH --vsys=0 --vmname=$VM_NAME
