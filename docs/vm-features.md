@@ -36,8 +36,10 @@ Activar el entorno virtual:
 
 ```console
 $ cd <ruta/al/proyecto>
-$ v
+$ a
 ```
+
+> 💡 `a` es un alias para `source .venv/bin/activate`
 
 Desactivar el entorno virtual:
 
@@ -45,6 +47,8 @@ Desactivar el entorno virtual:
 $ cd <rutal/al/proyecto>
 $ d
 ```
+
+> 💡 `d` es un alias para `deactivate`
 
 Ejemplo:
 
