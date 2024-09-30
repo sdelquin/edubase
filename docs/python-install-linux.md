@@ -78,10 +78,16 @@ cd $HOME && python --version
 
 ## Instalación de paquetes
 
-Lo primero es asegurarnos de tener la última versión del instalador de paquetes:
+Hacemos que `pip` esté disponible a nivel del sistema:
 
 ```console
-python -m pip install -U pip
+sudo update-alternatives --install /usr/bin/pip pip /usr/local/bin/pip$PYTHON_MAJOR 10
+```
+
+Ahora nos aseguramos de tener la última versión del instalador de paquetes:
+
+```console
+pip install -U pip
 ```
 
 A continuación instalamos algunos paquetes soporte:
