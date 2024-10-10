@@ -30,7 +30,11 @@ Ajustamos los parámetros de la interfaz de red pegando y ejecutando (con <kbd>E
 bash <(curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-network.sh)
 ```
 
-> 💡 Nos pedirá el nombre de la máquina virtual. Si no la has modificado basta con pulsar <kdb>ENTER</kdb>.
+⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️  
+**SI ESTÁS CREANDO LA MÁQUINA POR PRIMERA VEZ  
+NO MODIFIQUES EL VALOR POR DEFECTO.  
+PULSA <kbd>ENTER</kbd> para CONTINUAR**  
+⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 
 ## Arranque y configuración
 

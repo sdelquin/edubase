@@ -71,6 +71,9 @@ MAC=${macs[$HOSTNAME]}
 BRIDGEADAPTER=$(ip -br l | perl -nle 'print $1 if /(en[op][^\W]+)/')
 
 VM_NAME=$CONTEXT
+echo ====================================================================
+echo ================ NO CAMBIAR SI ES DE NUEVA CREACIÓN ================
+echo ====================================================================
 read -p "Nombre de tu máquina virtual [$CONTEXT]: " VM_NAME
 VM_NAME=${VM_NAME:-$CONTEXT}
 
