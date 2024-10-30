@@ -177,11 +177,13 @@ Igualmente se han preparado algunos **comandos útiles**:
 Las siguientes herramientas ya vienen preinstaladas en la máquina:
 
 - [just](https://github.com/casey/just): Herramienta para poder ejecutar comandos predefinidos en proyectos (_makefiles_) → Creado alias `j` para `just`.
+- [uv](https://github.com/astral-sh/uv): Gestor (rápido y eficaz) de paquetería para Python.
 - [bat](https://github.com/sharkdp/bat): Es como "cat" pero que mola. ¡Pruébalo!
 - [sqlite3](https://www.sqlite.org/index.html): Herramienta cliente en línea de comandos para manejar bases de datos de tipo sqlite.
 - [postgresql](https://www.postgresql.org/): Sistema gestor de bases de datos.
 - [redis](https://redis.io/): almacenamiento clave-valor en memoria.
 - [ghget](https://github.com/mohd-akram/ghget): Script para descargar ficheros/directorios desde un repositorio GitHub.
+- [trans](https://github.com/soimort/translate-shell): Traductor para línea de comandos.
 - [liferea](https://github.com/lwindolf/liferea): Cliente RSS.
 - [rabbitmq](https://www.rabbitmq.com/): Agente de colas de mensajes.
 - [stripe-cli](https://github.com/stripe/stripe-cli): Herramientas para "stripe" en línea de comandos.
