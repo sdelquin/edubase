@@ -1,4 +1,4 @@
-# Cómo trabajar con git
+# Cómo trabajar con GIT
 
 **Tanto desde clase como de casa**, aquí tienes el procedimiento que debes seguir para trabajar de forma segura utilizando control de versiones `git`.
 

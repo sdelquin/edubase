@@ -1,6 +1,6 @@
 # Carpetas de trabajo
 
-Desde la **máquina virtual de clase**, abre una terminal y ejecuta el siguiente comando:
+Desde la **máquina virtual DE CLASE 🎓** abre una terminal y ejecuta el siguiente comando:
 
 ```console
 curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/create-folders.sh | bash

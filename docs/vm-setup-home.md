@@ -1,4 +1,4 @@
-# Configuración de la máquina virtual (EN CASA)
+# Configuración de la máquina virtual (EN CASA 🏠)
 
 Esta guía explicará el proceso de instalar la máquina virtual en casa, suponiendo que tienes un sistema operativo tipo **Windows**.
 
@@ -7,9 +7,13 @@ Esta guía explicará el proceso de instalar la máquina virtual en casa, suponi
 1. Descarga [VirtualBox](https://www.virtualbox.org/wiki/Downloads) en tu máquina de casa.
 2. Realiza la instalación paso a paso. No es necesario modificar ningún valor predeterminado.
 
+> ⚠️ Recuerda que debes [activar la virtualización](https://www.youtube.com/watch?v=tgH4_jkiMbc) en tu PC para que todo funcione correctamente.
+
 ## Descargar la máquina virtual
 
 La máquina virtual se exporta en formato [OVF](https://es.wikipedia.org/wiki/Open_Virtualization_Format).
+
+Lo que debes hacer en casa es lo siguiente:
 
 1. Descarga la máquina virtual desde esta URL: https://g.sdelquin.me/daw-ova
 2. Ten paciencia porque el archivo suele ser de varios gigas. Al terminar deberías tener en tu carpeta de descargas un archivo `daw.ova`
