@@ -33,8 +33,8 @@ La máquina virtual se exporta en formato [OVF](https://es.wikipedia.org/wiki/Op
 
 2. Le cambiamos el nombre a la máquina virtual según corresponda:
 
-- `pro` si estás cursando Programación de 1DAW.
-- `dsw` si estás cursando Desarrollo web en entorno servidor de 2DAW.
+- `pro` si estás cursando «Programación» de 1DAW.
+- `dsw` si estás cursando «Desarrollo web en entorno servidor» de 2DAW.
 
 ![Cambiar nombre](./images/vm-setup-home/04-change-vm-name.png)
 
