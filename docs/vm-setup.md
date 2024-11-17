@@ -67,12 +67,6 @@ curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/set-h
 
 > ⚠️ Cuando nos lo solicite tendremos que poner la contraseña (ojo porque no se ve cuando la escribimos).
 
-A continuación creamos las carpetas de trabajo en el HOME del usuario ejecutando la siguiente instrucción:
-
-```console
-curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/create-folders.sh | bash
-```
-
 ## Clave de acceso
 
 Por último **modificamos la contraseña** que está por defecto para el usuario `alu` poniendo otra distinta **QUE NO DEBEMOS OLVIDAR**.
