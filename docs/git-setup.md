@@ -25,7 +25,7 @@ Ten en cuenta:
 
 ## Generar token de acceso
 
-Un token de acceso personal es una clave generada que permite autenticarte y realizar acciones en tus repositorios (como clonar, empujar cambios o gestionar configuraciones) de manera segura, reemplazando el uso de contraseñas en la línea de comandos o scripts.
+Un [token de acceso personal](https://docs.github.com/es/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) es una clave generada que permite autenticarte y realizar acciones en tus repositorios (como clonar, empujar cambios o gestionar configuraciones) de manera segura, reemplazando el uso de contraseñas en la línea de comandos o scripts.
 
 Para **generar un token de acceso personal** en GitHub debes ir a https://github.com/settings/tokens/new y rellenar lo siguiente:
 
