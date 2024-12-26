@@ -15,7 +15,7 @@ La máquina virtual se exporta en formato [OVF](https://es.wikipedia.org/wiki/Op
 
 Lo que debes hacer en casa es lo siguiente:
 
-1. Descarga la máquina virtual desde esta URL: https://g.sdelquin.me/ova-daw
+1. Descarga la máquina virtual desde esta URL: https://peq.es/ova-daw
 2. Ten paciencia porque el archivo suele ser de varios gigas. Al terminar deberías tener en tu carpeta de descargas un archivo `daw.ova`
 
 ## Importar la máquina virtual
