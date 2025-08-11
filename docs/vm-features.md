@@ -1,20 +1,27 @@
-# Funcionalidades de la máquina virtual
+# Funcionalidades de la máquina virtual <!-- omit from toc -->
 
-[Gestión de energía](#gestión-de-energía)  
-[Python](#python)  
-[Copiar y pegar](#copiar-y-pegar)  
-[Manejo de ficheros](#manejo-de-ficheros)  
-[Visual Studio Code](#visual-studio-code)  
-[Vim](#vim)  
-[Otras herramientas](#otras-herramientas)
+- [Usuarios](#usuarios)
+- [Python](#python)
+  - [iPython](#ipython)
+  - [uv](#uv)
+  - [Entornos virtuales](#entornos-virtuales)
+  - [pytest](#pytest)
+  - [pypas](#pypas)
+- [Copiar y pegar](#copiar-y-pegar)
+- [Manejo de ficheros](#manejo-de-ficheros)
+- [Visual Studio Code](#visual-studio-code)
+  - [Configuración de herramientas Python](#configuración-de-herramientas-python)
+  - [Extensiones](#extensiones)
+  - [Ajustes de VSCode](#ajustes-de-vscode)
+- [Otras herramientas](#otras-herramientas)
 
-## Gestión de energía
+## Usuarios
 
-Se ha deshabilitado la suspensión/hibernación de la máquina virtual mediante las indicaciones de [este tutorial](https://techmiscellany.hashnode.dev/xfce-remove-suspend-and-hibernate-menu-options).
-
-> 💡 Se ha hecho esto porque la máquina se quedaba "congelada" después de la suspensión.
+Se ha creado el usuario `alu` con contraseña `tranquilidad` para el acceso del alumnado a la máquina virtual.
 
 ## Python
+
+### iPython
 
 Abrir intérprete interactivo de Python (`ipython`):
 
@@ -24,11 +31,14 @@ $ p
 
 ![ipython](./images/vm-features/ipython.png)
 
-### pyenv
+> [!NOTE]
+> Obviamente también se puede lanzar el intérprete interactivo con `python` aunque tiene menos funcionalidades.
 
-La gestión de las distintas versiones de Python se realiza a través de la herramienta [pyenv](https://github.com/pyenv/pyenv). Esto facilita la instalación de versiones antiguas o modernas del lenguaje aislando cada una del sistema operativo.
+### uv
 
-![pyenv versions](./images/vm-features/pyenv-versions.png)
+La gestión de las distintas versiones de Python se realiza a través de la herramienta [uv](https://docs.astral.sh/uv/). Esto facilita la instalación de versiones antiguas o modernas del lenguaje aislando cada una del sistema operativo.
+
+![uv python versions](./images/vm-features/uv-python-versions.png)
 
 ### Entornos virtuales
 
@@ -78,7 +88,7 @@ Para copiar desde la terminal **basta con seleccionar texto**:
 
 ![Copy on select](./images/vm-features/copy-on-select.png)
 
-También es posible **copiar el contenido de cualquier fichero** desde línea de comandos con el siguiente comando:
+También es posible **copiar el contenido de cualquier fichero** desde línea de comandos con el siguiente comandou
 
 ```console
 $ copy <fichero>
@@ -155,39 +165,15 @@ Adicionalmente se han instalado y configurado las siguientes extensiones para **
 
 Los ajustes de VSCode para una mejor experiencia de desarrollo están en [este archivo](./files/settings.json) y quedan almacenados en la ruta: `~/.config/Code/User/settings.json`.
 
-## Vim
-
-El editor [Vim](https://www.vim.org/) está ya configurado con los siguientes **plugins**:
-
-- [Vim Airline](https://github.com/vim-airline/vim-airline): Barra de estado super vitaminada.
-- [Ctrlp](https://github.com/kien/ctrlp.vim): Navegador de ficheros de acceso rápido.
-- [Tema PaperColor](https://github.com/NLKNguyen/papercolor-theme): Tema de color.
-
-![Vim in action](./images/vm-features/vim.png)
-
-Igualmente se han preparado algunos **comandos útiles**:
-
-- `dl`: duplicar la línea actual.
-- `vv`: seleccionar la línea actual.
-- `Ctrl-y`: copiar la selección al portapapeles.
-- `a`: copiar la selección justo debajo del cursor.
-
 ## Otras herramientas
 
 Las siguientes herramientas ya vienen preinstaladas en la máquina:
 
 - [just](https://github.com/casey/just): Herramienta para poder ejecutar comandos predefinidos en proyectos (_makefiles_) → Creado alias `j` para `just`.
-- [uv](https://github.com/astral-sh/uv): Gestor (rápido y eficaz) de paquetería para Python.
 - [bat](https://github.com/sharkdp/bat): Es como "cat" pero que mola. ¡Pruébalo!
 - [sqlite3](https://www.sqlite.org/index.html): Herramienta cliente en línea de comandos para manejar bases de datos de tipo sqlite.
 - [postgresql](https://www.postgresql.org/): Sistema gestor de bases de datos.
 - [redis](https://redis.io/): almacenamiento clave-valor en memoria.
-- [ghget](https://github.com/mohd-akram/ghget): Script para descargar ficheros/directorios desde un repositorio GitHub.
-- [trans](https://github.com/soimort/translate-shell): Traductor para línea de comandos.
-- [liferea](https://github.com/lwindolf/liferea): Cliente RSS.
-- [rabbitmq](https://www.rabbitmq.com/): Agente de colas de mensajes.
-- [stripe-cli](https://github.com/stripe/stripe-cli): Herramientas para "stripe" en línea de comandos.
+- [trans](https://github.com/soimort/translate-shell): Traductor para línea de comandos → Creado alias `t` para traducir del español al inglés.
 - [npm](https://www.npmjs.com/): Sistema de gestión de paquetes para Node.js
 - [poedit](https://poedit.net/): Utilidad de ayuda a la traducción de cadenas de texto en internacionalización de aplicaciones.
-- [memcached](https://memcached.org/): Servicio para cachear contenido.
-- [syncthing](https://syncthing.net/): Servicio para sincronizar ficheros.
