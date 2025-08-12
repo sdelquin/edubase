@@ -4,10 +4,10 @@ HOSTNAME=$(hostname)
 ROOM=${HOSTNAME:1:3}
 case $ROOM in
     103)
-        CONTEXT=pro
+        CONTEXT=dsw
         ;;
     109)
-        CONTEXT=dsw
+        CONTEXT=pro
         ;;
     *)
         echo "Aula/Contexto no válido o vacío!"
