@@ -26,9 +26,22 @@ bash <(curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/script
 > [!IMPORTANT]
 > Este proceso puede durar varios minutos. ¡Paciencia!
 
+### Interfaz de red
+
+Es bastante probable que la interfaz de red que tiene configurada la máquina virtual no coincida con la de la máquina real.
+
+Para solucionar esto ejecuta el siguiente código (**desde una terminal de la máquina real**):
+
+```console
+bash <(curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-netiface.sh)
+```
+
+> [!TIP]
+> Si no aparece nada tras ejecutar el comando, son buenas noticias.
+
 ## Arranque y configuración ⚙️
 
-Ahora abrimos VirtualBox:
+Ahora abrimos **VirtualBox**:
 
 ![Open terminal](./images/vm-setup/open-virtualbox.png)
 
