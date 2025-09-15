@@ -54,15 +54,15 @@ git config --global credential.helper store
 Para poder clonar el repositorio de clase en tu máquina virtual debes abrir una terminal y ejecutar el siguiente comando:
 
 ```console
-git clone https://github.com/tu-usuario/pro.git
+git clone https://github.com/tu-usuario/tu-repositorio.git
 ```
 
 Notas:
 
 - Sustituye `tu-usuario` por tu usuario de GitHub.
-- Repositorio:
-  - Si estás cursando PRO usa `pro.git`.
-  - Si estás cursando DSW usa `dsw.git`.
+- Sustituye `tu-repositorio` por:
+  - `pro.git` (si estás cursando PRO).
+  - `dsw.git` (si estás cursando DSW).
 
 Este comando solicita dos credenciales:
 
@@ -80,7 +80,7 @@ git config --global user.email "tu-email"
 Sustituye `tu-email` por el email que has utilizado en la cuenta de GitHub.
 
 ```console
-git config --global user.name "Tu Nombre"
+git config --global user.name "Tu nombre y apellidos"
 ```
 
-Sustituye `Tu Nombre` por tu nombre y apellidos.
+Sustituye `Tu nombre y apellidos` por tu **nombre y apellidos**.
