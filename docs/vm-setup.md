@@ -30,10 +30,23 @@ bash <(curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/script
 
 Es bastante probable que la interfaz de red que tiene configurada la máquina virtual no coincida con la de la máquina real.
 
-Para solucionar esto ejecuta el siguiente código (**desde una terminal de la máquina real**):
+Para solucionar esto ejecuta el siguiente comando (**desde una terminal de la máquina real**):
 
 ```console
 bash <(curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-netiface.sh)
+```
+
+> [!TIP]
+> Si no aparece nada tras ejecutar el comando, son buenas noticias.
+
+### Controladora gráfica
+
+Puede haber algún problema con la controladora gráfica definida en la máquina virtual.
+
+Para solucionar esto ejecuta el siguiente comando (**desde una terminal de la máquina real**):
+
+```console
+bash <(curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-graphics.sh)
 ```
 
 > [!TIP]
