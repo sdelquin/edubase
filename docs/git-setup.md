@@ -61,8 +61,8 @@ Notas:
 
 - Sustituye `tu-usuario` por tu usuario de GitHub.
 - Sustituye `tu-repositorio` por:
-  - `pro.git` (si estás cursando PRO).
-  - `dsw.git` (si estás cursando DSW).
+  - `pro` (si estás cursando PRO).
+  - `dsw` (si estás cursando DSW).
 
 Este comando solicita dos credenciales:
 
