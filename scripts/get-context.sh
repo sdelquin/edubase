@@ -1,7 +1,6 @@
 #!/bin/bash
 
-HOSTNAME=$(hostname)
-ROOM=${HOSTNAME:1:3}
+ROOM=$(ip a | perl -lne 'print $1 if /10\.(10\d)\.\d+.\d+/')
 case $ROOM in
     103)
         CONTEXT=dsw
