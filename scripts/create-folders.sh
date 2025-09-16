@@ -32,7 +32,7 @@ case $CONTEXT in
             mv ~/dsw ~/dsw.bk
         fi
         cd $HOME
-        mkdir -p dsw/ut1 && touch p dsw/ut1/.placeholder
+        mkdir -p dsw/ut1 && touch dsw/ut1/.placeholder
         mkdir -p dsw/ut2 && touch dsw/ut2/.placeholder
         mkdir -p dsw/ut3 && touch dsw/ut3/.placeholder
         mkdir -p dsw/ut4 && touch dsw/ut4/.placeholder
