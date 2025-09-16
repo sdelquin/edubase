@@ -1,15 +1,15 @@
-# Funcionalidades de la máquina virtual <!-- omit from toc -->
+# Características de la máquina virtual <!-- omit from toc -->
 
-- [Sistema](#sistema)
+- [Configuración](#configuración)
 - [Usuarios](#usuarios)
 - [Copiar y pegar](#copiar-y-pegar)
 - [Manejo de ficheros](#manejo-de-ficheros)
 - [Visual Studio Code](#visual-studio-code)
 - [Otras herramientas](#otras-herramientas)
 
-## Sistema
+## Configuración
 
-Características de la máquina virtual:
+La máquina virtual se ha preparado en [VirtualBox](https://www.virtualbox.org/) con la siguiente configuración:
 
 - Sistema operativo Linux [Debian 13](https://bits.debian.org/2025/08/trixie-released.html) con escritorio [XFCE](https://www.xfce.org/).
 - 4GB de RAM.
