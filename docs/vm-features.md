@@ -1,27 +1,30 @@
 # Funcionalidades de la máquina virtual <!-- omit from toc -->
 
+- [Sistema](#sistema)
 - [Usuarios](#usuarios)
-- [Python](#python)
-  - [iPython](#ipython)
-  - [uv](#uv)
-  - [Entornos virtuales](#entornos-virtuales)
-  - [pytest](#pytest)
-  - [pypas](#pypas)
 - [Copiar y pegar](#copiar-y-pegar)
 - [Manejo de ficheros](#manejo-de-ficheros)
 - [Visual Studio Code](#visual-studio-code)
-  - [Configuración de herramientas Python](#configuración-de-herramientas-python)
-  - [Extensiones](#extensiones)
-  - [Ajustes de VSCode](#ajustes-de-vscode)
 - [Otras herramientas](#otras-herramientas)
+
+## Sistema
+
+Características de la máquina virtual:
+
+- Sistema operativo Linux [Debian 13](https://bits.debian.org/2025/08/trixie-released.html) con escritorio [XFCE](https://www.xfce.org/).
+- 4GB de RAM.
+- 30GB de disco.
+- Interfaz de red en modo puente (_bridge_).
 
 ## Usuarios
 
 Se ha creado el usuario `alu` con contraseña `tranquilidad` para el acceso del alumnado a la máquina virtual.
 
-## Python
+Posteriormente cada alumno/a modificará dicha contraseña a la suya particular.
 
-### iPython
+## Python <!-- omit from toc -->
+
+### iPython <!-- omit from toc -->
 
 Abrir intérprete interactivo de Python (`ipython`):
 
@@ -32,15 +35,15 @@ $ p
 ![ipython](./images/vm-features/ipython.png)
 
 > [!NOTE]
-> Obviamente también se puede lanzar el intérprete interactivo con `python` aunque tiene menos funcionalidades.
+> Obviamente también se puede lanzar el intérprete interactivo con `python` aunque dispone de menos funcionalidades.
 
-### uv
+### uv <!-- omit from toc -->
 
 La gestión de las distintas versiones de Python se realiza a través de la herramienta [uv](https://docs.astral.sh/uv/). Esto facilita la instalación de versiones antiguas o modernas del lenguaje aislando cada una del sistema operativo.
 
 ![uv python versions](./images/vm-features/uv-python-versions.png)
 
-### Entornos virtuales
+### Entornos virtuales <!-- omit from toc -->
 
 Activar el entorno virtual:
 
@@ -64,7 +67,7 @@ Ejemplo:
 
 ![Activar-Desactivar venv](./images/vm-features/actdeact-venv.png)
 
-### pytest
+### pytest <!-- omit from toc -->
 
 Tenemos ya instalado el paquete [pytest](https://docs.pytest.org/en/7.1.x/getting-started.html) de forma global para lanzar nuestros tests:
 
@@ -72,7 +75,7 @@ Tenemos ya instalado el paquete [pytest](https://docs.pytest.org/en/7.1.x/gettin
 $ pytest
 ```
 
-### pypas
+### pypas <!-- omit from toc -->
 
 También está disponible la herramienta de ejercicios en Python [pypas](https://pypas.es). Recuerda actualizarla a la última versión ejecutando el siguiente comando:
 
@@ -137,14 +140,14 @@ $ e
 
 > 💡 `e` es un alias para `code .`
 
-### Configuración de herramientas Python
+### Configuración de herramientas Python <!-- omit from toc -->
 
 Las herramientas Python que funcionan dentro de VSCode deben seguir una mínima configuración que se ha preparado en los siguientes archivos de configuración:
 
 - [`~/.config/ruff/ruff.toml`](./files/.ruff.toml)
 - [`~/.config/mypy/config`](./files/.mypy.ini)
 
-### Extensiones
+### Extensiones <!-- omit from toc -->
 
 En Visual Studio Code se han instalado y configurado las siguientes extensiones para **desarrollo con Python**:
 
@@ -161,7 +164,7 @@ Adicionalmente se han instalado y configurado las siguientes extensiones para **
 - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons): conjunto de iconos muy lindos.
 - [Open in GitHub](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-open-in-github): apertura de archivos locales en el repositorio remoto GitHub.
 
-### Ajustes de VSCode
+### Ajustes de VSCode <!-- omit from toc -->
 
 Los ajustes de VSCode para una mejor experiencia de desarrollo están en [este archivo](./files/settings.json) y quedan almacenados en la ruta: `~/.config/Code/User/settings.json`.
 
