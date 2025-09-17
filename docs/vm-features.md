@@ -9,7 +9,7 @@
 
 ## Configuración
 
-La máquina virtual se ha preparado en [VirtualBox](https://www.virtualbox.org/) con la siguiente configuración:
+La máquina virtual se ha preparado con [VirtualBox 7.1](https://www.virtualbox.org/) y dispone de la siguiente configuración:
 
 - Sistema operativo Linux [Debian 13](https://bits.debian.org/2025/08/trixie-released.html) con escritorio [XFCE](https://www.xfce.org/).
 - 4GB de RAM.
