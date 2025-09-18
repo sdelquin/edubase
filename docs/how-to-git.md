@@ -1,10 +1,12 @@
 # Cómo trabajar con GIT
 
-**Tanto desde clase como de casa**, aquí tienes el procedimiento que debes seguir para trabajar de forma segura utilizando control de versiones `git`.
+Git es un sistema de control de versiones distribuido que permite a los desarrolladores rastrear cambios en el código fuente, colaborar de forma eficiente y gestionar múltiples versiones de un proyecto de manera local y segura
+
+**Tanto desde clase como desde casa**, aquí tienes el procedimiento que debes seguir para trabajar de forma segura utilizando control de versiones `git`.
 
 ## Al empezar
 
-Lo primero que **siempre debes hacer** al empezar a trabajar es situarte en la carpeta correspondiente y lanzar el siguiente comando:
+Lo primero que **siempre debes hacer** al empezar a trabajar es **situarte en la carpeta correspondiente** (ej. `cd ~/pro`) y lanzar el siguiente comando:
 
 ```console
 git pull

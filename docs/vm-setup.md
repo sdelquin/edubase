@@ -6,7 +6,8 @@ Esta sección explica cómo montar **la máquina virtual** con la que vamos a tr
 [Arranque y configuración](#arranque-y-configuración)  
 [Clave de acceso](#clave-de-acceso)  
 [Pasos posteriores](#pasos-posteriores)  
-[Advertencias](#advertencias)
+[Advertencias](#advertencias)  
+[Apagar la máquina virtual](#apagar-la-máquina-virtual)
 
 ## Descarga e instalación ⬇️
 
@@ -39,19 +40,6 @@ bash <(curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/script
 > [!TIP]
 > Si no aparece nada tras ejecutar el comando, son buenas noticias.
 
-### Controladora gráfica
-
-Puede haber algún problema con la controladora gráfica definida en la máquina virtual.
-
-Para solucionar esto ejecuta el siguiente comando (**desde una terminal de la máquina real**):
-
-```console
-bash <(curl -fsSL https://raw.githubusercontent.com/sdelquin/edubase/main/scripts/fix-graphics.sh)
-```
-
-> [!TIP]
-> Si no aparece nada tras ejecutar el comando, son buenas noticias.
-
 ## Arranque y configuración ⚙️
 
 Ahora abrimos **VirtualBox**:
@@ -71,7 +59,7 @@ Accedemos al sistema con las siguientes credenciales:
 - Usuario: `alu`
 - Contraseña: `tranquilidad`
 
-A continuación abrimos una terminal **desde la máquina virtual**:
+A continuación abrimos una terminal **desde la MÁQUINA VIRTUAL**:
 
 ![Open terminal vm](./images/vm-setup/open-terminal-vm.png)
 
@@ -79,9 +67,12 @@ A continuación abrimos una terminal **desde la máquina virtual**:
 
 Por último **modificamos la contraseña** que está por defecto para el usuario `alu` poniendo otra distinta **QUE NO DEBEMOS OLVIDAR**.
 
-Para ello ejecutamos (desde una terminal de la **máquina virtual**) el comando `passwd`:
+Para ello ejecutamos (desde una terminal de la **MÁQUINA VIRTUAL**) el comando `passwd`:
 
 ![passwd](./images/vm-setup/passwd.png)
+
+> [!TIP]
+> Cuando escribas verás que no aparece nada en pantalla pero realmente **sí se está pasando la información**.
 
 ## Pasos posteriores 👣
 
@@ -109,3 +100,9 @@ Ejemplos:
 1. **NO MODIFIQUES EL NOMBRE DE LA MÁQUINA VIRTUAL**. Debe llamarse tal y como quedó después de la configuración inicial.
 2. **NO MODIFIQUES LA CUENTA DE USUARIO** que se ha creado por defecto `alu`.
 3. **NO INSTALES OTRA SHELL** que no sea la que viene por defecto `bash` ya que puede afectar a las configuraciones de distintas herramientas.
+
+## Apagar la máquina virtual 🔌
+
+Para apagar la máquina virtual sigue estos pasos:
+
+![Apagar máquina virtual](./images/vm-setup/shutdown-vm.png)

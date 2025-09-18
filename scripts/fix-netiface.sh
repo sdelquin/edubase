@@ -17,7 +17,7 @@ esac
 
 VM_NAME=$CONTEXT
 
-netiface=$(ip addr | perl -lne 'print $1 if /^.*(enp\w+)\W*/' | uniq)
+netiface=$(ip addr | perl -lne 'print $1 if /10\.10\d\.\d+\.0.*(enp\w+)\W*/')
 if [ -z "$netiface" ]; then
     echo "No se ha podido detectar la interfaz de red cableada de la máquina real."
     exit 1

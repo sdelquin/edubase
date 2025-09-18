@@ -2,11 +2,11 @@
 
 ## Introducción
 
-**pypas** es la herramienta que utilizaremos para realizar ejercicios.
+[pypas](https://pypas.es) es la herramienta que utilizaremos para realizar ejercicios.
 
 ## Instalación
 
-En la máquina virtual ya deberías de tener pypas instalado. Pero siempre es bueno actualizar a la última versión:
+En la **máquina virtual** ya deberías de tener pypas instalado. Pero siempre es bueno actualizar a la última versión:
 
 ```console
 pypas upgrade

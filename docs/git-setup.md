@@ -35,7 +35,9 @@ Para **generar un token de acceso personal** en GitHub debes ir a https://github
 
 Te aparecerá ahora la siguiente pantalla en la que debes pulsar el botón para copiar el token.
 
-**GUARDA EL TOKEN EN UN SITIO SEGURO PORQUE NUNCA MÁS VOLVERÁ A APARECER**
+<!-- prettier-ignore -->
+> [!CAUTION]
+> **GUARDA EL TOKEN EN UN SITIO SEGURO PORQUE NUNCA MÁS VOLVERÁ A APARECER**
 
 ![Copiar Access token](./images/git-setup/copy-access-token.png)
 
@@ -43,7 +45,7 @@ Te aparecerá ahora la siguiente pantalla en la que debes pulsar el botón para 
 
 Para no tener que introducir cada vez las credenciales de GitHub en la terminal, vamos a configurarlo de forma permanente.
 
-Para ello debes abrir una terminal de tu máquina virtual y ejecutar el siguiente comando:
+Para ello debes abrir una terminal de tu **MÁQUINA VIRTUAL** y ejecutar el siguiente comando:
 
 ```console
 git config --global credential.helper store
@@ -51,7 +53,7 @@ git config --global credential.helper store
 
 ## Clonar el repositorio
 
-Para poder clonar el repositorio de clase en tu máquina virtual debes abrir una terminal y ejecutar el siguiente comando:
+Para poder clonar el repositorio de clase en tu **MÁQUINA VIRTUAL** debes abrir una terminal y ejecutar el siguiente comando:
 
 ```console
 git clone https://github.com/tu-usuario/tu-repositorio.git
@@ -77,10 +79,10 @@ Para que `git` conozca quiénes somos a la hora de realizar cambios en el códig
 git config --global user.email "tu-email"
 ```
 
-Sustituye `tu-email` por el email que has utilizado en la cuenta de GitHub.
+Sustituye `tu-email` por el email que has utilizado en la cuenta de GitHub (deja las comillas).
 
 ```console
 git config --global user.name "Tu nombre y apellidos"
 ```
 
-Sustituye `Tu nombre y apellidos` por tu **nombre y apellidos**.
+Sustituye `Tu nombre y apellidos` por tu **nombre y apellidos** (deja las comillas).
