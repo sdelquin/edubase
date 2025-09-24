@@ -53,3 +53,20 @@ Lo que debes hacer en casa es lo siguiente:
 Ahora sólo nos queda iniciar la máquina virtual:
 
 ![Iniciar la máquina virtual](./images/vm-setup-home/06-run-vm.png)
+
+---
+
+## 🚨 SISTEMA OPERATIVO MACOS 
+
+Si en casa tienes sistema operativo **macOS (Apple)** de nueva generación (con procesador Apple Silicon) la máquina virtual que se ha preparado **no funcionará**:
+
+> [!CAUTION]
+> Cannot run the machine because its platform architecture x86 is not supported on ARM.
+
+La alternativa es instalar las distintas herramientas "manualmente" para poder trabajar de manera equivalente:
+
+- [Instalar Python](https://www.python.org/downloads/)
+- [Instalar VSCode](https://code.visualstudio.com/download)
+- [Instalar uv](https://docs.astral.sh/uv/getting-started/installation/)
+- [Instalar pypas](https://pypas.es/docs/#instalacion)
+- [Instalar git](https://git-scm.com/downloads/mac)
