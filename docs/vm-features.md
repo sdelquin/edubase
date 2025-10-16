@@ -172,6 +172,7 @@ Los ajustes de VSCode para una mejor experiencia de desarrollo están en [este a
 
 Las siguientes herramientas ya vienen preinstaladas en la máquina:
 
+- [zip](https://voidnull.es/zip-el-comando-para-comprimir-todo-lo-que-necesites/): Utilidad para comprimir archivos.
 - [git](https://git-scm.com/): Sistema distribuido de control de versiones.
 - [tree](<https://en.wikipedia.org/wiki/Tree_(command)>): Visualización en árbol del sistema de ficheros.
 - [just](https://github.com/casey/just): Herramienta para poder ejecutar comandos predefinidos en proyectos (_makefiles_) → Creado alias `j` para `just`.
