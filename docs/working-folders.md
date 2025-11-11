@@ -13,6 +13,7 @@ Esto creará la estructura de carpetas con la que vamos a trabajar durante el cu
 Para confirmar los cambios con `git` debes ejecutar los siguientes comandos:
 
 ```console
+cd ~/pro
 git add .
 git commit -m "Creación de carpetas de trabajo"
 git push
