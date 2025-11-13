@@ -106,3 +106,11 @@ Ejemplos:
 Para apagar la máquina virtual sigue estos pasos:
 
 ![Apagar máquina virtual](./images/vm-setup/shutdown-vm.png)
+
+## Problemas con cursor del ratón
+
+Si tu ratón aparece **con un cuadrado** en la máquina virtual, es posible que se solucione subiendo la memoria de vídeo en VirtualBox.
+
+Accede a la configuración de la máquina virtual y modifica este parámetro:
+
+![Memoria de vídeo](./images/vm-setup/video-memory.png)
