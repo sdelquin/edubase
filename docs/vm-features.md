@@ -183,3 +183,4 @@ Las siguientes herramientas ya vienen preinstaladas en la máquina:
 - [trans](https://github.com/soimort/translate-shell): Traductor para línea de comandos → Creado alias `t` para traducir del español al inglés.
 - [npm](https://www.npmjs.com/): Sistema de gestión de paquetes para Node.js
 - [poedit](https://poedit.net/): Utilidad de ayuda a la traducción de cadenas de texto en internacionalización de aplicaciones.
+- [fonts-noto-color-emoji](https://github.com/googlefonts/noto-emoji): Paquete de "emojis" para visualización.
