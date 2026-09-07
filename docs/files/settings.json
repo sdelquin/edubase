@@ -40,13 +40,16 @@
   },
 
   // Configuraciones de Python
+  "python.languageServer": "None",
   "python.analysis.ignore": ["*"],
   "[python]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.codeActionsOnSave": {
-      "source.organizeImports": "always",
-      "source.fixAll": "always"
+      "source.organizeImports": "explicit",
+      "source.fixAll": "explicit"
     }
-  }
+  },
+  "ty.inlayHints.variableTypes": false,
+  "ty.inlayHints.callArgumentNames": false
 }

@@ -144,15 +144,15 @@ $ e
 
 Las herramientas Python que funcionan dentro de VSCode deben seguir una mínima configuración que se ha preparado en los siguientes archivos de configuración:
 
-- [`~/.config/ruff/ruff.toml`](./files/.ruff.toml)
-- [`~/.config/mypy/config`](./files/.mypy.ini)
+- [`~/.config/ruff/ruff.toml`](./files/ruff.toml)
+- [`~/.config/ty/ty.toml`](./files/ty.toml)
 
 ### Extensiones <!-- omit from toc -->
 
 En Visual Studio Code se han instalado y configurado las siguientes extensiones para **desarrollo con Python**:
 
-- [Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff): analizador de código Python.
-- [Mypy](https://marketplace.visualstudio.com/items?itemName=ms-python.mypy-type-checker): verificador de tipos estáticos.
+- [Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff): analizador y formateador de código Python.
+- [Ty](https://marketplace.visualstudio.com/items?itemName=astral-sh.ty): servidor de lenguaje y chequeador de tipos de código Python.
 - [Django](https://marketplace.visualstudio.com/items?itemName=batisteo.vscode-django): sintaxis y ayudas con Django.
 
 Adicionalmente se han instalado y configurado las siguientes extensiones para **desarrollo en general**:
