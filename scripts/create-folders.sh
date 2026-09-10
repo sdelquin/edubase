@@ -28,6 +28,13 @@ case $CONTEXT in
         mkdir -p ~/dsw/ut4 && touch ~/dsw/ut4/.placeholder
         mkdir -p ~/dsw/ut5 && touch ~/dsw/ut5/.placeholder
         ;;
+    ets)
+        mkdir -p ~/ets/ut1 && touch ~/ets/ut1/.placeholder
+        mkdir -p ~/ets/ut2 && touch ~/ets/ut2/.placeholder
+        mkdir -p ~/ets/ut3 && touch ~/ets/ut3/.placeholder
+        mkdir -p ~/ets/ut4 && touch ~/ets/ut4/.placeholder
+        mkdir -p ~/ets/ut5 && touch ~/ets/ut5/.placeholder
+        ;;
     *)
         echo "Contexto no válido o vacío!"
         exit

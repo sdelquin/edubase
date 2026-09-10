@@ -9,6 +9,9 @@ case $CONTEXT in
     dsw)
         OVA_BASE_URL=http://repo.amy/daw/2daw/dsw
         ;;
+    ets)
+        OVA_BASE_URL=http://repo.amy/daw_s/1daw_s/ets
+        ;;
     *)
         echo "Contexto no válido o vacío!"
         exit
@@ -18,7 +21,7 @@ esac
 VM_NAME=$CONTEXT
 OVA_NAME=daw.ova
 OVA_URL=$OVA_BASE_URL/$OVA_NAME
-OVA_LOCAL_PATH=$HOME/Descargas/$OVA_NAME
+OVA_LOCAL_PATH=$HOME/opt/$OVA_NAME
 
 # DESCARGA DE LA OVA
 if [ -f "$OVA_LOCAL_PATH" ]

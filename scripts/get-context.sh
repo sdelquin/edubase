@@ -5,6 +5,9 @@ case $ROOM in
     103)
         CONTEXT=dsw
         ;;
+    108)
+        CONTEXT=ets
+        ;;
     109)
         CONTEXT=pro
         ;;

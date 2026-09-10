@@ -9,6 +9,9 @@ case $CONTEXT in
     dsw)
         OVA_BASE_URL=http://repo.amy/daw/2daw/dsw
         ;;
+    ets)
+        OVA_BASE_URL=http://repo.amy/daw_s/1daw_s/ets
+        ;;
     *)
         echo "Contexto no válido o vacío!"
         exit
