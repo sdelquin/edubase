@@ -31,7 +31,7 @@ Para **generar un token de acceso personal** en GitHub debes ir a https://github
 
 > ⚠️ En la **fecha de expiración** pon la fecha en la que acaba el curso.
 
-![Access token](./images/git-setup/access-token.png)
+![Access token](./images/git-setup/access-token.jpg)
 
 Te aparecerá ahora la siguiente pantalla en la que debes pulsar el botón para copiar el token.
 
