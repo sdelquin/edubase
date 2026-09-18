@@ -7,7 +7,8 @@ Esta guía explicará el proceso de instalar la máquina virtual en casa, suponi
 1. Descarga [VirtualBox](https://www.virtualbox.org/wiki/Downloads) en tu máquina de casa.
 2. Realiza la instalación paso a paso. No es necesario modificar ningún valor predeterminado.
 
-> ⚠️ Recuerda que debes [activar la virtualización](https://www.youtube.com/watch?v=tgH4_jkiMbc) en tu PC para que todo funcione correctamente.
+> [!WARNING]
+> Recuerda que debes [activar la virtualización](https://www.youtube.com/watch?v=tgH4_jkiMbc) en tu PC para que todo funcione correctamente.
 
 ## Descargar la máquina virtual
 

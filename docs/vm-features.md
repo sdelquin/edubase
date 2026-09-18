@@ -37,6 +37,9 @@ $ p
 > [!NOTE]
 > Obviamente también se puede lanzar el intérprete interactivo con `python` aunque dispone de menos funcionalidades.
 
+> [!TIP]
+> Para salir del intérprete puedes pulsar <kbd>CTRL-D</kbd> o bien escribir `exit`.
+
 ### uv <!-- omit from toc -->
 
 La gestión de las distintas versiones de Python se realiza a través de la herramienta [uv](https://docs.astral.sh/uv/). Esto facilita la instalación de versiones antiguas o modernas del lenguaje aislando cada una del sistema operativo.
