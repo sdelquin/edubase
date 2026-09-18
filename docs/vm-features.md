@@ -42,7 +42,7 @@ $ p
 
 ### uv <!-- omit from toc -->
 
-La gestión de las distintas versiones de Python se realiza a través de la herramienta [uv](https://docs.astral.sh/uv/). Esto facilita la instalación de versiones antiguas o modernas del lenguaje aislando cada una del sistema operativo.
+La gestión de las distintas versiones de Python se realiza a través de la herramienta [uv](https://aprendepython.es/entornos/ide/uv/). Esto facilita la instalación de versiones antiguas o modernas del lenguaje aislando cada una del sistema operativo.
 
 ![uv python versions](./images/vm-features/uv-python-versions.png)
 
