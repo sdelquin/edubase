@@ -8,6 +8,11 @@ Un **sistema de control de versiones** como `git` sirve para gestionar y registr
 
 Si aún no tienes una cuenta GitHub **debes crearte una** accediendo a: https://github.com/signup
 
+> [!CAUTION]
+> Si te aparece una pantalla como esta, puede ser que GitHub esté detectando demasiadas peticiones desde la misma IP (la de clase). Una posible solución es **usar tu móvil** para crearte la cuenta y volver luego al PC de clase [iniciando la sesión](https://github.com/login).
+
+![Too many requests](./images/git-setup/github-too-many-requests.jpg)
+
 ## Repositorio
 
 Un repositorio es un espacio donde se almacena un proyecto y su historial de cambios, permitiendo gestionar, compartir y colaborar en el código fuente o archivos relacionados.
