@@ -22,7 +22,7 @@ case $CONTEXT in
         mkdir -p ~/pro/ut8/sqlite && touch ~/pro/ut8/sqlite/.placeholder
         ;;
     dsw)
-        mkdir -p ~/dsw/ut1 && touch ~/dsw/ut1/.placeholder
+        mkdir -p ~/dsw/ut1/tne1 && touch ~/dsw/ut1/tne1/.placeholder
         mkdir -p ~/dsw/ut2 && touch ~/dsw/ut2/.placeholder
         mkdir -p ~/dsw/ut3 && touch ~/dsw/ut3/.placeholder
         mkdir -p ~/dsw/ut4 && touch ~/dsw/ut4/.placeholder
