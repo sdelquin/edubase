@@ -25,6 +25,7 @@ Ten en cuenta:
 | ----------------- | --------------- | ----------------------------------------------------------------- |
 | 1DAW (PRO)        | `pro`           | Programación (1DAW - IES Puerto de la Cruz)                       |
 | 2DAW (DSW)        | `dsw`           | Desarrollo web en entorno servidor (2DAW - IES Puerto de la Cruz) |
+| 1DAWs (ETS)       | `ets`           | Entornos de desarrollo (1DAWs - IES Puerto de la Cruz)            |
 
 ![Nuevo repositorio](./images/git-setup/new-repository.png)
 
@@ -70,6 +71,7 @@ Notas:
 - Sustituye `tu-repositorio` por:
   - `pro` (si estás cursando PRO).
   - `dsw` (si estás cursando DSW).
+  - `ets` (si estás cursando ETS).
 
 Este comando solicita dos credenciales:
 

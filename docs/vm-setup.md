@@ -93,6 +93,8 @@ ip -br a | perl -nle 'print $1 if /(10.[^\/]+)/'
 Ejemplos:
 
 - Si estás en el **aula 103** el resultado del comando (IP) debería ser algo como: `10.103.99.X`
+- Si estás en el **aula 104** el resultado del comando (IP) debería ser algo como: `10.104.99.X`
+- Si estás en el **aula 108** el resultado del comando (IP) debería ser algo como: `10.108.99.X`
 - Si estás en el **aula 109** el resultado del comando (IP) debería ser algo como: `10.109.99.X`
 
 ## Advertencias 🚨

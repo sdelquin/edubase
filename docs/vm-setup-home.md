@@ -40,6 +40,7 @@ Lo que debes hacer en casa es lo siguiente:
 
 - `pro` si estás cursando «Programación» de 1DAW.
 - `dsw` si estás cursando «Desarrollo web en entorno servidor» de 2DAW.
+- `ets` si estás cursando «Entornos de desarrollo» de 1DAWs.
 
 ![Cambiar nombre](./images/vm-setup-home/04-change-vm-name.png)
 

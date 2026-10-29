@@ -10,6 +10,7 @@ Esto creará la estructura de carpetas con la que vamos a trabajar durante el cu
 
 - `~/pro` si estás cursando el módulo de **Programación** de 1DAW.
 - `~/dsw` si estás cursando el módulo de **Desarrollo web en entornos servidor** de 2DAW.
+- `~/ets` si estás cursando el módulo de **Entornos de desarrollo** de 1DAWs.
 
 ## Confirma los cambios
 
