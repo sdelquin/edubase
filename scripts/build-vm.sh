@@ -22,6 +22,7 @@ VM_NAME=$CONTEXT
 OVA_NAME=daw.ova
 OVA_URL=$OVA_BASE_URL/$OVA_NAME
 OVA_LOCAL_PATH=$HOME/Descargas/$OVA_NAME
+OVA_GLOBAL_PATH=/opt/$OVA_NAME
 
 # DESCARGA DE LA OVA
 if [ -f "$OVA_LOCAL_PATH" ]
@@ -29,9 +30,24 @@ then
     OVA_MOD_DATE=$(date -r $OVA_LOCAL_PATH "+%d-%m-%Y")
     read -p "Ya se ha descargado una OVA en la ruta $OVA_LOCAL_PATH ($OVA_MOD_DATE). ¿Usar esta OVA? [S/n]: "
     REPLY=${REPLY:-S}
-    [[ $REPLY =~ ^[Ss]$ ]] || curl -L $OVA_URL -o $OVA_LOCAL_PATH
+    [[ $REPLY =~ ^[Ss]$ ]] || curl -fL $OVA_URL -o $OVA_LOCAL_PATH
+    OVA_PATH=$OVA_LOCAL_PATH
 else
-    curl -L $OVA_URL -o $OVA_LOCAL_PATH
+    if [ -f "$OVA_GLOBAL_PATH" ]
+    then
+        OVA_MOD_DATE=$(date -r $OVA_GLOBAL_PATH "+%d-%m-%Y")
+        read -p "Ya se ha descargado una OVA en la ruta $OVA_GLOBAL_PATH ($OVA_MOD_DATE). ¿Usar esta OVA? [S/n]: "
+        REPLY=${REPLY:-S}
+        if [[ $REPLY =~ ^[Ss]$ ]]; then
+            OVA_PATH=$OVA_GLOBAL_PATH
+        else
+            curl -fL "$OVA_URL" -o "$OVA_LOCAL_PATH"
+            OVA_PATH=$OVA_LOCAL_PATH
+        fi
+    else
+        curl -fL $OVA_URL -o $OVA_LOCAL_PATH
+        OVA_PATH=$OVA_LOCAL_PATH
+    fi
 fi
 
 # INSTALACIÓN DE LA OVA
@@ -46,4 +62,4 @@ then
         exit 0
     fi
 fi
-VBoxManage import $OVA_LOCAL_PATH --vsys=0 --vmname=$VM_NAME
+VBoxManage import $OVA_PATH --vsys=0 --vmname=$VM_NAME
