@@ -67,8 +67,8 @@ Si en casa tienes sistema operativo **macOS (Apple)** de nueva generación (con 
 
 La alternativa es instalar las distintas herramientas "manualmente" para poder trabajar de manera equivalente:
 
-- [Instalar Python](https://www.python.org/downloads/)
+- [Instalar Python](https://www.python.org/downloads/macos/)
 - [Instalar VSCode](https://code.visualstudio.com/download)
 - [Instalar uv](https://docs.astral.sh/uv/getting-started/installation/)
-- [Instalar pypas](https://pypas.es/docs/#instalacion)
+- [Instalar pypas](https://aprendepython.es/paquetes/aprendizaje/pypas/#instalacion)
 - [Instalar git](https://git-scm.com/downloads/mac)
