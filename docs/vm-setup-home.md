@@ -56,6 +56,12 @@ Ahora sólo nos queda iniciar la máquina virtual:
 
 ![Iniciar la máquina virtual](./images/vm-setup-home/06-run-vm.png)
 
+> [!NOTE]
+> **Credenciales de acceso a la máquina virtual**
+>
+> USUARIO: `alu`  
+> CONTRASEÑA: `tranquilidad`
+
 ---
 
 ## 🚨 SISTEMA OPERATIVO MACOS 
